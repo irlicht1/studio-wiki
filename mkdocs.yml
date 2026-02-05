@@ -1,0 +1,30 @@
+site_name: Studio Production 585 Wiki
+site_description: Внутренние стандарты съёмки и света Видеостудии 585
+site_author: Studio
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+
+nav:
+  - Главная: index.md
+  - Камеры:
+      - Общие правила: cameras/index.md
+  - Свет:
+      - Общие схемы: lighting/index.md
+  - Чек-листы:
+      - Перед съёмкой: checklists/index.md
+  - Ошибки:
+      - Типовые проблемы: mistakes/index.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
